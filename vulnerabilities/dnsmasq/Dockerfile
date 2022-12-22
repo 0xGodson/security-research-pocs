@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:bullseye
 
 RUN apt-get update
 RUN apt-get install -y --force-yes wget git make gnupg nano
